@@ -1,5 +1,5 @@
 Name: Run Shell Commands
-on:[push]
+On: [push]
 Jobs:
 
 	run-shell-command:
