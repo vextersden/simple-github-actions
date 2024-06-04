@@ -6,4 +6,4 @@ Jobs:
 		runs-on: ubuntu-latest
 		steps:
 			- name: Echo a string
-			 run: echo " This is github actions wali workflow file"
+			 run: echo " This is github actions workflow file"
