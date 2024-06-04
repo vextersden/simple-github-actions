@@ -1,9 +1,9 @@
-	name: Run Shell Commands
-	on: [push]
-	Jobs:
+name: Run Shell Commands
+on: [push]
+Jobs:
 
-	run-shell-command:
-	runs-on: ubuntu-latest
-	steps:
-		-name:Echo a string
-		run:"hello"
+  run-shell-command:
+		runs-on: ubuntu-latest
+		steps:
+			-name:Echo a string
+			run:"hello"
