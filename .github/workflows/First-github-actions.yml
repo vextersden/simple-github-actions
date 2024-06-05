@@ -3,7 +3,8 @@ on: [push]
 
 Jobs:
   run-shell-command:
-	runs-on: ubuntu
+  name: run-shell-command
+	runs-on: ubuntu-latest
 	steps:
 		- name: Echo a string
 			run: echo "hello vexter"
