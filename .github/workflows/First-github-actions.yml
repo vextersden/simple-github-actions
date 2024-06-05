@@ -7,4 +7,4 @@ Jobs:
 		steps:
 			runs-on: ubuntu-latest
 			-name:Echo a string
-			run:"hello"
+			run:"hello vexter"
